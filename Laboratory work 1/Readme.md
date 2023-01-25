@@ -25,6 +25,8 @@ echo "Hey, ${TRUE_USER}" # Output: "Hey, user"
 bash hello.sh
 ```
 
+![](https://i.imgur.com/7PA9Rks.gif)
+
 
 #### 1.1
 Замена пути к интерпретарору с `#!/usr/bin/bash` на `#!/usr/bin/sh` и даже удаление этой строки ничего не изменило. (Все сработало нормально)
@@ -56,6 +58,8 @@ for file in $files; do
     cp $file $backup_file
 done
 ```
+
+![](https://i.imgur.com/7PA9Rks.gif)
 
 ### Задание 3
 > `trash.sh`
