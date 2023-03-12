@@ -42,7 +42,7 @@ nmcli con del enp0s3
 nmcli con add con-name enp0s3 type ethernet ifname enp0s3
 ```
 
-Ставим BOOTPROTO для DHCP
+У BOOTPROTO ставим DHCP
 ```bash
 nmcli connection modify enp0s3 ipv4.method auto
 ```
