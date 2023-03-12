@@ -28,6 +28,7 @@ useradd --gid TEST_GROUP --home-dir /home TEST_USER
 - Флаг `--home-dir` для указания домашней директории
 
 Результат
+
 ![](https://i.imgur.com/u084xmQ.png)
 
 ### Задание 2
@@ -94,8 +95,8 @@ then
     des_password="des${m}12345"
 
 
-    useradd --groups staff,developers -p $dev_password $dev_userN
-    useradd --groups staff,designers -p $des_password $des_userM
+    useradd --groups staff,developers $dev_userN
+    useradd --groups staff,designers $des_userM
 else
     echo "Please, provide N and M as the arguments"
 fi
@@ -200,6 +201,8 @@ fi
 ```
 
 
+Запуск скрипта
 ![](https://i.imgur.com/93gTSjN.png)
 
+Авторизация по данным из результата работы скрипта
 ![](https://i.imgur.com/XN5cgir.png)
