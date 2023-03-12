@@ -66,7 +66,7 @@ yum install at
 
 ![AhsyqQf.png](https://i.imgur.com/AhsyqQf.png)
 
-Архивировние через gzip и bzip2 показала идентичные результаты
+Архивировние через gzip и bzip2 показало идентичные результаты
 
 
 ### Задание 5
@@ -138,8 +138,10 @@ crontab -e
 
 
 Проверяем почту
+
 ![](https://i.imgur.com/vS8d5Qp.png)
 
 
 Видим что скрипт отработал
+
 ![](https://i.imgur.com/5IEr6lu.png)
